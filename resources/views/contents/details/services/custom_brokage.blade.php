@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Custom Brokage Services')
 @section('content')
 
 <!-- Page Header -->

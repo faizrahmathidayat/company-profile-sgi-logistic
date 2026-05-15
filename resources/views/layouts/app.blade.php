@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ env('APP_NAME') }}</title>
+    <title>{{ env('APP_NAME') }} - @yield('title','Freight Forwarding & Contract Logistics')</title>
     <meta name="description"
         content="Premium Freight Forwarding and Contract Logistics solutions. We deliver your cargo safely and efficiently around the globe.">
 

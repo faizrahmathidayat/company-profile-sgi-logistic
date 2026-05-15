@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Sea Freight Services')
 @section('content')
 
 <!-- Page Header -->

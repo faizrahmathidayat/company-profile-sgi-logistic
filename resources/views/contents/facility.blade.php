@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Our Facilities')
 @section('content')
 
 <!-- Page Header -->

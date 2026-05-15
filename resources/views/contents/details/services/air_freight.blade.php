@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', 'Air Freight Services')
 @section('content')
 
 <!-- Page Header -->
