@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Warehousing & Distribution Services')
+@section('meta_description', 'Our Warehousing & Distribution services provide strategic storage solutions and efficient fulfillment processes. We offer secure, climate-controlled facilities equipped with real-time inventory tracking. Our extensive distribution network ensures rapid transit and cost-effective delivery, while our order fulfillment services are tailored to meet your specific business requirements, reducing lead times and operational costs.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, warehousing and distribution services, climate-controlled storage, real-time inventory tracking, distribution network, order fulfillment')
 @section('content')
 
 <!-- Page Header -->

@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Air Freight Services')
+@section('meta_description', 'When time is of the essence, our Air Freight services deliver. We provide expedited shipping solutions across the globe, ensuring your urgent cargo reaches its destination swiftly and safely. With priority boarding and streamlined customs clearance, we minimize downtime. We partner with top-tier airlines to offer flexible capacity, regular flight schedules, and competitive rates, giving you the reliability you need for high-value and time-sensitive shipments.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, air freight services, expedited shipping, priority boarding, customs clearance, airline partnerships, flexible capacity, flight schedules, competitive rates')
 @section('content')
 
 <!-- Page Header -->

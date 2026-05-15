@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'About Us')
+@section('meta_description', 'Learn about SGI Logistics, your trusted partner in global supply chain solutions. Discover our vision, mission, and the experienced team behind our success.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics')
 @section('content')
 
 <!-- Page Header -->

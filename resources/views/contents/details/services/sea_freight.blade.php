@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Sea Freight Services')
+@section('meta_description', 'The backbone of global trade. Our Sea Freight solutions offer cost-effective, reliable transport for large volumes of goods. We handle Full Container Load (FCL) and Less than Container Load (LCL) shipments with unmatched efficiency. With strategic alliances with major ocean carriers, we secure competitive rates and flexible sailing schedules, ensuring your cargo travels optimally from origin to destination.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, sea freight services, full container load, less than container load, FCL, LCL, ocean carriers, competitive rates, sailing schedules')
 @section('content')
 
 <!-- Page Header -->

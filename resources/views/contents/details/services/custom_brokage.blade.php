@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Custom Brokage Services')
+@section('meta_description', 'Navigating the complexities of international trade regulations. Our expert Custom Brokage services ensure your shipments clear customs quickly and efficiently, minimizing delays and avoiding costly penalties. We provide end-to-end support for import and export clearance, ensuring that all regulatory requirements are met. Our team of experts handles tariff classification, valuation, and duty management, allowing you to focus on your core business while we handle the intricacies of customs compliance across multiple jurisdictions.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, custom brokage services, import clearance, export clearance, tariff classification, regulatory compliance, duty management')
 @section('content')
 
 <!-- Page Header -->

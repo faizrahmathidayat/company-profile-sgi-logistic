@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Our Services')
+@section('meta_description', 'Explore SGI Logistics\' comprehensive range of services, including Air Freight, Sea Freight, Land Transport, Contract Logistics, Warehousing & Distribution, and Custom Brokage. We provide tailored solutions to meet your unique supply chain needs.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, air freight, sea freight, land transport, contract logistics, warehousing and distribution, custom brokage')
 @section('content')
 
 <!-- Page Header -->

@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Contract Logistics Services')
+@section('meta_description', 'Beyond basic transport, we offer comprehensive Contract Logistics. From warehousing and inventory management to complex order fulfillment and reverse logistics, we act as an extension of your business. Our smart warehousing solutions leverage modern Warehouse Management Systems (WMS) to give you total visibility and control over your inventory. We tailor our processes to integrate perfectly with your operations, reducing overhead costs and improving service levels.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, contract logistics services, warehousing, inventory management, order fulfillment, reverse logistics, smart warehousing, warehouse management systems, WMS integration, supply chain optimization')
 @section('content')
 
 <!-- Page Header -->

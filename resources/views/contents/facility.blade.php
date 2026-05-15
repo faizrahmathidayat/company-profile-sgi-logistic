@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Our Facilities')
+@section('meta_description', 'Discover SGI Logistics\' state-of-the-art facilities, including smart warehouses, dedicated port terminals, and advanced distribution centers. Our infrastructure is designed to ensure the highest levels of security, efficiency, and technological integration for your cargo handling needs.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, smart warehouses, port terminals, distribution centers, logistics technology, logistics security')
 @section('content')
 
 <!-- Page Header -->

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ env('APP_NAME') }} - @yield('title','Freight Forwarding & Contract Logistics')</title>
     <meta name="description"
-        content="Premium Freight Forwarding and Contract Logistics solutions. We deliver your cargo safely and efficiently around the globe.">
+      content="@yield('meta_description', 'SGI Logistic provides freight forwarding, warehousing, trucking, customs clearance, and supply chain solutions for domestic and international logistics needs.')">
+    <meta name="keywords" content="@yield('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics')">
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">

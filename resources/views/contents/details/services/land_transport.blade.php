@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Land Transport Services')
+@section('meta_description', 'Connecting ports to final destinations seamlessly. Our vast network of trucking and rail partners ensures that your cargo moves smoothly across borders and throughout continents. We offer dedicated fleet solutions, optimized routing, and advanced tracking to ensure visibility over your ground transportation. Whether it is short-haul distribution or long-haul cross-border delivery, our reliable land transport network has you covered.')
+@section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics, land transport services, trucking network, rail freight, cross-border delivery, dedicated fleet solutions, optimized routing, advanced tracking')
 @section('content')
 
 <!-- Page Header -->
