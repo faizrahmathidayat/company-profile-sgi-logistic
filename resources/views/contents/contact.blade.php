@@ -1,0 +1,152 @@
+@extends('layouts.app')
+
+@section('content')
+
+<!-- Page Header -->
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/contact_banner.png") }}');">
+        <div class="page-header-overlay"></div>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="lead opacity-75">Let's Discuss Your Supply Chain Needs</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- Contact Information -->
+                <div class="col-lg-5">
+                    <h2 class="mb-4">Get in Touch</h2>
+                    <p class="text-muted mb-5">Whether you need a specialized freight solution or a complete logistics
+                        overhaul, our experts are ready to assist you. Reach out today for a custom quote.</p>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Global Headquarters</h5>
+                            <p class="text-muted mb-0">Jl. Tomang Raya Blok MM Kav. 557
+Lt/3. 51E Kota Jakarta Barat, Jakarta 11440
+<br>Indonesia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Phone</h5>
+                            <p class="text-muted mb-0">+62 821 1185 5805</p>
+                            <p class="text-muted mb-0">+62 878 6036 0562</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold mb-1">Email</h5>
+                            <p class="text-muted mb-0">info@sgilogistics.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div class="contact-wrap">
+                        <h3 class="mb-4 fw-bold">Request a Quote</h3>
+                        <form action="#" method="POST" id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label text-muted small fw-bold">First
+                                        Name</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label text-muted small fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email" class="form-label text-muted small fw-bold">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone" class="form-label text-muted small fw-bold">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="col-12">
+                                    <label for="service" class="form-label text-muted small fw-bold">Service of
+                                        Interest</label>
+                                    <select class="form-select form-control" id="service" name="service" required>
+                                        <option value="" selected disabled>Select a service...</option>
+                                        <option value="AIR FREIGHT">Air Freight</option>
+                                        <option value="SEA FREIGHT">Sea Freight</option>
+                                        <option value="WAREHOUSE & DISTRIBUTION">Warehousing & Distribution</option>
+                                        {{-- <option value="LAND TRANSPORT">Land Transport</option>
+                                        <option value="CONTRACT LOGISTICS">Contract Logistics</option> --}}
+                                        <option value="OTHER">Other / Not Sure</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label text-muted small fw-bold">Message
+                                        Details</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5"
+                                        placeholder="Tell us about your cargo, volume, and destination..."
+                                        required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <div class="g-recaptcha" data-sitekey="6Lca2dgsAAAAAOLey9eYKWz3rojvgPmfPK5tk3XU"></div>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="submit" class="btn btn-primary-custom w-100">Send Request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <p class="mt-2">Sending your message...</p>
+    </div>
+
+    <!-- Message Modal -->
+    <div class="modal fade" id="messageModal" tabindex="-1" aria-labelledby="messageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="messageModalLabel">Message</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center" id="messageModalBody">
+                    <!-- Message content will be inserted here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Section -->
+    <section>
+        <!-- A placeholder for Google Maps iframe -->
+        <div
+            style="width: 100%; height: 400px; background-color: #e5e7eb; display: flex; align-items: center; justify-content: center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6647313121066!2d106.79958957429825!3d-6.175618760513907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f66213ab4d67%3A0x7b58b43c0f7953fe!2sJl.%20Tomang%20Raya%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1778599196890!5m2!1sid!2sid" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+@endsection
