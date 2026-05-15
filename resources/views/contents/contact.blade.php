@@ -28,9 +28,7 @@
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Global Headquarters</h5>
-                            <p class="text-muted mb-0">Jl. Tomang Raya Blok MM Kav. 557
-Lt/3. 51E Kota Jakarta Barat, Jakarta 11440
-<br>Indonesia</p>
+                            <p class="text-muted mb-0">Summarecon Serpong, Graha Anabatic 7th Floor, Jl. Scientia Boulevard No.15810 Kav.U2, Kabupaten Tangerang, Banten 15810<br>Indonesia</p>
                         </div>
                     </div>
 
@@ -41,7 +39,7 @@ Lt/3. 51E Kota Jakarta Barat, Jakarta 11440
                         <div>
                             <h5 class="fw-bold mb-1">Phone</h5>
                             <p class="text-muted mb-0">+62 821 1185 5805</p>
-                            <p class="text-muted mb-0">+62 878 6036 0562</p>
+                            <p class="text-muted mb-0">+62 858-8652-7664</p>
                         </div>
                     </div>
 
@@ -51,7 +49,7 @@ Lt/3. 51E Kota Jakarta Barat, Jakarta 11440
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Email</h5>
-                            <p class="text-muted mb-0">info@sgilogistics.com</p>
+                            <p class="text-muted mb-0">sales@sgilogistics.com</p>
                         </div>
                     </div>
                 </div>
@@ -145,7 +143,7 @@ Lt/3. 51E Kota Jakarta Barat, Jakarta 11440
         <!-- A placeholder for Google Maps iframe -->
         <div
             style="width: 100%; height: 400px; background-color: #e5e7eb; display: flex; align-items: center; justify-content: center;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6647313121066!2d106.79958957429825!3d-6.175618760513907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f66213ab4d67%3A0x7b58b43c0f7953fe!2sJl.%20Tomang%20Raya%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1778599196890!5m2!1sid!2sid" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0612303310004!2d106.61732817429929!3d-6.255664161246384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc7a8facbe19%3A0x16699d670e8909b1!2sGraha%20Anabatic!5e0!3m2!1sid!2sid!4v1778829247477!5m2!1sid!2sid" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 

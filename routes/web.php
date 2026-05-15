@@ -29,6 +29,10 @@ Route::prefix('service')->name('service.')->group(function () {
         return view('contents.details.services.warehouse_distribution');
     })->name('warehouse-and-distribution');
 
+    Route::get('/custom-brokage', function () {
+        return view('contents.details.services.custom_brokage');
+    })->name('custom-brokage');
+
     // Route::get('/land-transport', function () {
     //     return view('contents.details.services.land_transport');
     // })->name('land-transport');

@@ -34,11 +34,11 @@
                         destination swiftly and safely. With priority boarding and streamlined customs clearance, we
                         minimize downtime.</p>
                     <ul class="list-unstyled mt-4 text-muted">
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Next Flight Out (NFO)
-                            Services</li>
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Charter Flights</li>
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Door-to-Door Delivery
-                        </li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Back-to-Back Services</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i>  Door-to-Door Services</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Hub & ConsolidationServices</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Customs & quarantine</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Flexible Multimodal Transport Solutions Designed to Meet Specific Time Constraints</li>
                     </ul>
                 </div>
             </div>
@@ -60,11 +60,10 @@
                         reliable transport for large volumes of goods. We handle Full Container Load (FCL) and Less than
                         Container Load (LCL) shipments with unmatched efficiency.</p>
                     <ul class="list-unstyled mt-4 text-muted">
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> FCL and LCL Services</li>
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Port-to-Port &
-                            Door-to-Door</li>
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Specialized Cargo
-                            Handling</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i>  Comprehensive LCL & FCL Consolidations</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Door-to-Door and Port-to-Port Services for Both Export and Import</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Customs & Quarantine</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i>  Flexible Multimodal Transport Solutions Designed to Meet Specific </li>
                     </ul>
                 </div>
             </div>
@@ -123,7 +122,7 @@
             </div> --}}
 
             <!-- Service 5 -->
-            <div class="row align-items-center">
+            <div class="row align-items-center mb-5 pb-5 border-bottom">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <img src="{{ asset('assets/img/facility_home.png') }}" alt="Warehousing & Distribution"
                         class="img-fluid rounded shadow">
@@ -139,12 +138,34 @@
                         warehousing facilities provide secure storage and rapid fulfillment services to keep your
                         products moving closer to your customers.</p>
                     <ul class="list-unstyled mt-4 text-muted">
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Secure & Climate
-                            Controlled Storage</li>
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Cross-Docking &
-                            Transloading</li>
-                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Last-Mile Delivery
-                            Optimization</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Consolidation</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Local Distribution</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Bonded & Non-bonded Warehousing</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Pick & Pack</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Air and Ocean Domestics</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Charter Truck and Consolidation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="row align-items-center mb-5 pb-5 border-bottom flex-lg-row-reverse">
+                <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
+                    <img src="{{ asset('assets/img/custom_brokage.png') }}" alt="Custom Brokage"
+                        class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-file-signature fs-2 text-primary me-3"></i>
+                        <a href="{{ url('/service/custom-brokage') }}" class="service-title-link">
+                            <h2 class="mb-0">Custom Brokage</h2>
+                        </a>
+                    </div>
+                    <p class="text-muted">Our customs experts ensure that goods undergo the correct customs registration and handling, avoiding delays as well as unnecessary costs and fees. They also utilize a range of options to optimize the process and identify potential pitfalls to be avoided.</p>
+                    <ul class="list-unstyled mt-4 text-muted">
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Import/Export Clearance</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Tariff Classification & Valuation</li>
+                        <li class="mb-2"><i class="fa-solid fa-check text-secondary me-2"></i> Regulatory Compliance Consultation</li>
                     </ul>
                 </div>
             </div>

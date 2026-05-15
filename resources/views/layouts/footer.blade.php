@@ -28,6 +28,7 @@
                     <li><a href="{{ url('/service/sea-freight') }}">Sea Freight</a></li>
                     <li><a href="{{ url('/service/air-freight') }}">Air Freight</a></li>
                     <li><a href="{{ url('/service/warehouse-and-distribution') }}">Warehousing & Distribution</a></li>
+                    <li><a href="{{ url('/service/custom-brokage') }}">Custom Brokage</a></li>
                     {{-- <li><a href="{{ url('/service/land-transport') }}">Land Transport</a></li>
                     <li><a href="{{ url('/service/contract-logistics') }}">Contract Logistics</a></li> --}}
                 </ul>
@@ -35,11 +36,11 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="footer-title">Contact Us</h5>
                 <ul class="footer-links text-white">
-                    <li class="mb-3"><i class="fa-solid fa-location-dot me-2 text-primary"></i> Jl. Tomang Raya Blok MM Kav. 557 Lt/3. 51E Kota Jakarta Barat, Jakarta 11440, Indonesia
+                    <li class="mb-3"><i class="fa-solid fa-location-dot me-2 text-primary"></i> Summarecon Serpong, Graha Anabatic 7th Floor, Jl. Scientia Boulevard No.15810 Kav.U2, Kabupaten Tangerang, Banten 15810, Indonesia
                     </li>
                     <li class="mb-3"><i class="fa-solid fa-phone me-2 text-primary"></i> +62 821 1185 5805</li>
-                    <li class="mb-3"><i class="fa-solid fa-phone me-2 text-primary"></i> +62 878 6036 0562</li>
-                    <li class="mb-3"><i class="fa-solid fa-envelope me-2 text-primary"></i> info@sgilogistics.com
+                    <li class="mb-3"><i class="fa-solid fa-phone me-2 text-primary"></i> +62 858-8652-7664</li>
+                    <li class="mb-3"><i class="fa-solid fa-envelope me-2 text-primary"></i> sales@sgilogistics.com
                     </li>
                 </ul>
             </div>
