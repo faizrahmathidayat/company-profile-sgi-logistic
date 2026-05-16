@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
   font-family: 'Outfit', sans-serif;
   font-weight: 900;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: var(--text-white) !important;
   letter-spacing: -0.5px;
 }
@@ -434,11 +434,52 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 15px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
   transition: var(--transition);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .process-img-wrap:hover {
-  transform: scale(1.01);
+  transform: translateY(-5px);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+}
+
+.process-zoom-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 77, 10, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 0;
+  transition: var(--transition);
+  z-index: 2;
+}
+
+.process-img-wrap:hover .process-zoom-overlay {
+  opacity: 1;
+}
+
+.process-zoom-overlay i {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  transform: scale(0.5);
+  transition: var(--transition);
+}
+
+.process-img-wrap:hover .process-zoom-overlay i {
+  transform: scale(1);
+}
+
+.process-zoom-overlay span {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .process-img-wrap img {
@@ -516,7 +557,7 @@ footer {
 .footer-brand {
   font-family: 'Outfit', sans-serif;
   color: white;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 900;
   margin-bottom: 20px;
   display: inline-block;

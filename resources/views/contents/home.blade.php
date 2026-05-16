@@ -88,10 +88,14 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="process-img-wrap">
+                <div class="col-lg-12">
+                    <div class="process-img-wrap" data-bs-toggle="modal" data-bs-target="#processModal">
                         <img src="{{ asset('assets/img/our_logistic_process.png') }}" alt="Our Logistics Process"
                             class="img-fluid rounded shadow-lg">
+                        <div class="process-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Click to Preview</span>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
-                <a href="{{  url('/')}}" class="footer-brand">Sandika Global<span> Indonesia</span></a>
+                <a href="{{  url('/')}}" class="footer-brand">PT. Sandika Global<span> Indonesia</span></a>
                 <p class="mt-3">Delivering excellence in freight forwarding and contract logistics. Your trusted
                     partner for global supply chain solutions.</p>
                 <div class="d-flex gap-3 mt-4">
@@ -50,3 +50,17 @@
         </div>
     </div>
 </footer>
+
+<!-- Process Image Modal -->
+    <div class="modal fade preview-modal" id="processModal" tabindex="-1" aria-labelledby="processModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content border-0 bg-transparent">
+                <div class="modal-header border-0 p-0 mb-3 justify-content-end">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img src="{{ asset('assets/img/our_logistic_process.png') }}" class="img-fluid w-100 rounded" alt="Our Logistics Process Full View">
+                </div>
+            </div>
+        </div>
+    </div>
