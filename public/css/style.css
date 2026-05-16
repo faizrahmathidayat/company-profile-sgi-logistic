@@ -286,8 +286,8 @@ h1, h2, h3, h4, h5, h6 {
 /* About Section */
 .about-img-wrap {
   position: relative;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  /* padding-right: 30px; */
+  /* padding-bottom: 30px; */
 }
 
 .about-img-wrap::before {
