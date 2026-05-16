@@ -7,9 +7,9 @@
                 <p class="mt-3">Delivering excellence in freight forwarding and contract logistics. Your trusted
                     partner for global supply chain solutions.</p>
                 <div class="d-flex gap-3 mt-4">
-                    <a href="#" class="text-white fs-5"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" class="text-white fs-5"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" class="text-white fs-5"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="text-white fs-5"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="text-white fs-5"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="text-white fs-5"><i class="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
