@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
   font-family: 'Outfit', sans-serif;
   font-weight: 900;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   color: var(--text-white) !important;
   letter-spacing: -0.5px;
 }

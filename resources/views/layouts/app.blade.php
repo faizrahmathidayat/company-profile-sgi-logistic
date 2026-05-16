@@ -9,6 +9,44 @@
       content="@yield('meta_description', 'SGI Logistic provides freight forwarding, warehousing, trucking, customs clearance, and supply chain solutions for domestic and international logistics needs.')">
     <meta name="keywords" content="@yield('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics')">
 
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SGI Logistics - Your Trusted Partner in Freight Forwarding and Contract Logistics">
+    <meta property="og:description" content="SGI Logistic provides freight forwarding, warehousing, trucking, customs clearance, and supply chain solutions for domestic and international logistics needs.">
+    <meta property="og:image" content="{{ asset('assets/img/logo.png') }}">
+    <meta property="og:url" content="https://sgi-logistic.infinityfreeapp.com/">
+    <meta property="og:site_name" content="PT Sandika Global Indonesia">
+    <meta property="og:image:width" content="720">
+    <meta property="og:image:height" content="1100">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SGI Logistic",
+        "url": "https://sgi-logistic.infinityfreeapp.com",
+        "logo": "https://sgi-logistic.infinityfreeapp.com/assets/img/logo.png",
+        "description": "SGI Logistic provides freight forwarding, warehousing, trucking, customs clearance, and supply chain solutions.",
+
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Summarecon Serpong, Graha Anabatic 7th Floor, Jl. Scientia Boulevard No.15810 Kav.U2, Kabupaten Tangerang, Banten 15810, Indonesia",
+            "addressLocality": "Kabupaten Tangerang",
+            "postalCode": "15810",
+            "addressCountry": "ID"
+        },
+
+        "areaServed": "Indonesia",
+
+        "serviceType": [
+            "Freight Forwarding",
+            "Warehousing",
+            "Customs Clearance",
+            "Trucking"
+        ]
+    }
+    </script>
+
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/logo.png') }}">
+
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- FontAwesome -->

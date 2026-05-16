@@ -55,7 +55,7 @@
     <!-- Vision & Mission -->
     <section class="section-padding bg-light">
         <div class="container">
-            <div class="row g-5 align-items-stretch">
+            <div class="row g-4 align-items-stretch">
                 <div class="col-md-6">
                     <div class="p-5 bg-white rounded shadow-sm h-100 border-start border-5"
                         style="border-color: var(--primary-color) !important;">
