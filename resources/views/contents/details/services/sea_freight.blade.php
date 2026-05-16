@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('{{ asset("assets/img/hero_logistics_1777043517461.png") }}');">
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/hero_logistics_1777043517461.jpg") }}');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>Sea Freight</h1>
@@ -20,7 +20,7 @@
                 <div class="col-12">
                     <div class="row align-items-center mb-5">
                         <div class="col-lg-6 mb-4 mb-lg-0">
-                            <img src="{{ asset('assets/img/hero_logistics_1777043517461.png') }}" alt="Sea Freight Detail"
+                            <img src="{{ asset('assets/img/hero_logistics_1777043517461.jpg') }}" alt="Sea Freight Detail"
                                 class="img-fluid rounded shadow w-100">
                         </div>
                         <div class="col-lg-6 ps-lg-5">

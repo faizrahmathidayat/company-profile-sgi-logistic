@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('{{ asset("assets/img/about_warehouse_1777043552976.png") }}');">
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/about_warehouse_1777043552976.jpg") }}');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>About Us</h1>
@@ -19,7 +19,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="about-img-wrap">
-                        <img src="{{ asset('assets/img/about_warehouse_1777043552976.png') }}" alt="SGI Logistics Warehouse"
+                        <img src="{{ asset('assets/img/about_warehouse_1777043552976.jpg') }}" alt="SGI Logistics Warehouse"
                             class="about-img img-fluid">
                     </div>
                 </div>
@@ -137,7 +137,7 @@
                 <!-- Team Member 1 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-white rounded shadow-sm overflow-hidden h-100 text-center pb-4">
-                        <img src="{{  asset('assets/img/team_member_1.png')}}" alt="CEO" class="img-fluid w-100 mb-4" style="height: 350px; object-fit: cover; object-position: top;">
+                        <img src="{{  asset('assets/img/team_member_1.jpg')}}" alt="CEO" class="img-fluid w-100 mb-4" style="height: 350px; object-fit: cover; object-position: top;">
                         <h4 class="fw-bold mb-1">David Chen</h4>
                         <p class="text-primary fw-semibold mb-3">Chief Executive Officer</p>
                         <p class="text-muted px-4 small">With over 20 years in global logistics, David leads our strategic vision and international expansion efforts.</p>
@@ -150,7 +150,7 @@
                 <!-- Team Member 2 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-white rounded shadow-sm overflow-hidden h-100 text-center pb-4">
-                        <img src="{{ asset('assets/img/team_member_2.png') }}" alt="COO" class="img-fluid w-100 mb-4" style="height: 350px; object-fit: cover; object-position: top;">
+                        <img src="{{ asset('assets/img/team_member_2.jpg') }}" alt="COO" class="img-fluid w-100 mb-4" style="height: 350px; object-fit: cover; object-position: top;">
                         <h4 class="fw-bold mb-1">Sarah Jenkins</h4>
                         <p class="text-primary fw-semibold mb-3">Chief Operating Officer</p>
                         <p class="text-muted px-4 small">Sarah oversees daily operations, ensuring flawless execution across all our global supply chain networks.</p>
@@ -163,7 +163,7 @@
                 <!-- Team Member 3 -->
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-white rounded shadow-sm overflow-hidden h-100 text-center pb-4">
-                        <img src="{{ asset('assets/img/team_member_3.png') }}" alt="CFO" class="img-fluid w-100 mb-4" style="height: 350px; object-fit: cover; object-position: top;">
+                        <img src="{{ asset('assets/img/team_member_3.jpg') }}" alt="CFO" class="img-fluid w-100 mb-4" style="height: 350px; object-fit: cover; object-position: top;">
                         <h4 class="fw-bold mb-1">Carlos Mendoza</h4>
                         <p class="text-primary fw-semibold mb-3">Chief Financial Officer</p>
                         <p class="text-muted px-4 small">Carlos drives financial strategy and sustainability, optimizing investments in cutting-edge logistics technology.</p>

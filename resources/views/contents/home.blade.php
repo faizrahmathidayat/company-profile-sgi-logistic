@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Hero Section -->
-    <section class="hero-section" style="background-image: url('{{ asset("assets/img/hero_logistics_1777043517461.png") }}');">
+    <section class="hero-section" style="background-image: url('{{ asset("assets/img/hero_logistics_1777043517461.jpg") }}');">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="row">
@@ -62,7 +62,7 @@
 
     <!-- Facility Preview -->
     <section class="facility-preview-section position-relative"
-        style="background-image: url('{{ asset("assets/img/facility_home.png") }}'); background-size: cover; background-position: center; background-attachment: fixed; padding: 100px 0;">
+        style="background-image: url('{{ asset("assets/img/facility_home.jpg") }}'); background-size: cover; background-position: center; background-attachment: fixed; padding: 100px 0;">
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.65);"></div>
         <div class="container position-relative z-1 text-center text-white">
             <div class="row justify-content-center">

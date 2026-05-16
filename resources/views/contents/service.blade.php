@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('assets/img/hero_logistics_1777043517461.png');">
+    <header class="page-header" style="background-image: url('assets/img/hero_logistics_1777043517461.jpg');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>Our Services</h1>
@@ -20,7 +20,7 @@
             <!-- Service 1 -->
             <div class="row align-items-center mb-5 pb-5 border-bottom">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="{{ asset("assets/img/service_air_1777043709915.png") }}" 
+                    <img src="{{ asset("assets/img/service_air_1777043709915.jpg") }}" 
      alt="Air Freight"
      class="img-fluid rounded shadow">
                 </div>
@@ -48,7 +48,7 @@
             <!-- Service 2 -->
             <div class="row align-items-center mb-5 pb-5 border-bottom flex-lg-row-reverse">
                 <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
-                    <img src="{{  asset('assets/img/hero_logistics_1777043517461.png')}}" alt="Sea Freight"
+                    <img src="{{  asset('assets/img/hero_logistics_1777043517461.jpg')}}" alt="Sea Freight"
                         class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
@@ -73,7 +73,7 @@
             <!-- Service 3 -->
             {{-- <div class="row align-items-center mb-5 pb-5 border-bottom">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="{{  asset('assets/img/service_land_1777043803865.png')}}" alt="Land Transport"
+                    <img src="{{  asset('assets/img/service_land_1777043803865.jpg')}}" alt="Land Transport"
                         class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6 ps-lg-5">
@@ -99,7 +99,7 @@
             <!-- Service 4 -->
             {{-- <div class="row align-items-center flex-lg-row-reverse">
                 <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
-                    <img src="{{  asset('assets/img/about_warehouse_1777043552976.png')}}" alt="Contract Logistics"
+                    <img src="{{  asset('assets/img/about_warehouse_1777043552976.jpg')}}" alt="Contract Logistics"
                         class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
@@ -126,7 +126,7 @@
             <!-- Service 5 -->
             <div class="row align-items-center mb-5 pb-5 border-bottom">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="{{ asset('assets/img/facility_home.png') }}" alt="Warehousing & Distribution"
+                    <img src="{{ asset('assets/img/facility_home.jpg') }}" alt="Warehousing & Distribution"
                         class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6 ps-lg-5">
@@ -153,7 +153,7 @@
             <!-- Service 6 -->
             <div class="row align-items-center mb-5 pb-5 border-bottom flex-lg-row-reverse">
                 <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
-                    <img src="{{ asset('assets/img/custom_brokage.png') }}" alt="Custom Brokage"
+                    <img src="{{ asset('assets/img/custom_brokage.jpg') }}" alt="Custom Brokage"
                         class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">

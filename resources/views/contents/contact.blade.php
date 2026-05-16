@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('{{ asset("assets/img/contact_banner.png") }}');">
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/contact_banner.jpg") }}');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>Contact Us</h1>

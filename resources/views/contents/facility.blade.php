@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('{{ asset("assets/img/facility_home.png") }}');">
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/facility_home.jpg") }}');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>Our Facilities</h1>
@@ -28,7 +28,7 @@
                 <!-- Facility 1 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/about_warehouse_1777043552976.png') }}" alt="Smart Warehouses">
+                        <img src="{{  asset('assets/img/about_warehouse_1777043552976.jpg') }}" alt="Smart Warehouses">
                         <div class="facility-overlay">
                             <h4>Smart Warehouses</h4>
                             <p class="small mb-0">Fully automated inventory management, climate-controlled zones, and
@@ -39,7 +39,7 @@
                 <!-- Facility 2 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/hero_logistics_1777043517461.png') }}" alt="Port Terminals">
+                        <img src="{{  asset('assets/img/hero_logistics_1777043517461.jpg') }}" alt="Port Terminals">
                         <div class="facility-overlay">
                             <h4>Dedicated Port Terminals</h4>
                             <p class="small mb-0">Strategic locations at major global ports to ensure rapid loading,
@@ -50,7 +50,7 @@
                 <!-- Facility 3 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/service_land_1777043803865.png') }}" alt="Distribution Centers">
+                        <img src="{{  asset('assets/img/service_land_1777043803865.jpg') }}" alt="Distribution Centers">
                         <div class="facility-overlay">
                             <h4>Distribution Centers</h4>
                             <p class="small mb-0">Optimized cross-docking facilities to accelerate the movement of goods
@@ -107,13 +107,13 @@
                 <div class="col-lg-6">
                     <div class="row g-2">
                         <div class="col-6">
-                            <img src="{{  asset('assets/img/service_air_1777043709915.png') }}" alt="Tech"
+                            <img src="{{  asset('assets/img/service_air_1777043709915.jpg') }}" alt="Tech"
                                 class="img-fluid rounded mb-2">
-                            <img src="{{  asset('assets/img/hero_logistics_1777043517461.png') }}" alt="Security"
+                            <img src="{{  asset('assets/img/hero_logistics_1777043517461.jpg') }}" alt="Security"
                                 class="img-fluid rounded">
                         </div>
                         <div class="col-6 mt-4">
-                            <img src="{{  asset('assets/img/about_warehouse_1777043552976.png') }}" alt="Warehouse"
+                            <img src="{{  asset('assets/img/about_warehouse_1777043552976.jpg') }}" alt="Warehouse"
                                 class="img-fluid rounded">
                         </div>
                     </div>
