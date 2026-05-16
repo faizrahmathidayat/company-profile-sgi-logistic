@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('{{ asset("assets/img/facility_home.jpg") }}');">
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/facility_home.webp") }}');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>Our Facilities</h1>

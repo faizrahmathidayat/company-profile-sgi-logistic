@@ -126,7 +126,7 @@
             <!-- Service 5 -->
             <div class="row align-items-center mb-5 pb-5 border-bottom">
                 <div class="col-lg-6 mb-4 mb-lg-0">
-                    <img src="{{ asset('assets/img/facility_home.jpg') }}" alt="Warehousing & Distribution"
+                    <img src="{{ asset('assets/img/facility_home.webp') }}" alt="Warehousing & Distribution"
                         class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6 ps-lg-5">

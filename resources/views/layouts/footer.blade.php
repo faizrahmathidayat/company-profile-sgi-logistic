@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">
-                <h5 class="footer-title">Quick Links</h5>
+                <div class="footer-title fw-bold fs-5">Quick Links</div>
                 <ul class="footer-links">
                     <li><a href="{{ url('/')}}">Home</a></li>
                     <li><a href="{{ url('/about') }}">About Us</a></li>
@@ -23,7 +23,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h5 class="footer-title">Services</h5>
+                <div class="footer-title fw-bold fs-5">Services</div>
                 <ul class="footer-links">
                     <li><a href="{{ url('/service/sea-freight') }}">Sea Freight</a></li>
                     <li><a href="{{ url('/service/air-freight') }}">Air Freight</a></li>
@@ -34,7 +34,7 @@
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h5 class="footer-title">Contact Us</h5>
+                <div class="footer-title fw-bold fs-5">Contact Us</div>
                 <ul class="footer-links text-white">
                     <li class="mb-3"><i class="fa-solid fa-location-dot me-2 text-primary"></i> Summarecon Serpong, Graha Anabatic 7th Floor, Jl. Scientia Boulevard No.15810 Kav.U2, Kabupaten Tangerang, Banten 15810, Indonesia
                     </li>
@@ -52,15 +52,18 @@
 </footer>
 
 <!-- Process Image Modal -->
-    <div class="modal fade preview-modal" id="processModal" tabindex="-1" aria-labelledby="processModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content border-0 bg-transparent">
-                <div class="modal-header border-0 p-0 mb-3 justify-content-end">
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body p-0">
-                    <img src="{{ asset('assets/img/our_logistic_process.png') }}" class="img-fluid w-100 rounded" alt="Our Logistics Process Full View">
-                </div>
+<div class="modal fade preview-modal" id="processModal" tabindex="-1" aria-labelledby="processModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content border-0 bg-transparent">
+            <div class="modal-header border-0 p-0 mb-3 justify-content-end">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <img src="{{ asset('assets/img/our_logistic_process_desktop.webp') }}" 
+                     class="img-fluid w-100 rounded" 
+                     alt="Our Logistics Process Full View"
+                     loading="lazy"> 
             </div>
         </div>
     </div>
+</div>

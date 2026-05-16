@@ -35,7 +35,7 @@
                 <div class="col-md-4">
                     <div class="service-card text-center">
                         <i class="fa-solid fa-ship service-icon"></i>
-                        <h4>Freight Forwarding</h4>
+                        <h3 class="fs-4">Freight Forwarding</h3>
                         <p class="text-muted mt-3">Reliable sea, air, and land freight forwarding services connecting
                             you to major markets worldwide.</p>
                     </div>
@@ -43,7 +43,7 @@
                 <div class="col-md-4">
                     <div class="service-card text-center">
                         <i class="fa-solid fa-warehouse service-icon"></i>
-                        <h4>Contract Logistics</h4>
+                        <h3 class="fs-4">Contract Logistics</h3>
                         <p class="text-muted mt-3">End-to-end supply chain management including warehousing, inventory
                             control, and distribution.</p>
                     </div>
@@ -51,7 +51,7 @@
                 <div class="col-md-4">
                     <div class="service-card text-center">
                         <i class="fa-solid fa-shield-halved service-icon"></i>
-                        <h4>Secure & Tracked</h4>
+                        <h3 class="fs-4">Secure & Tracked</h3>
                         <p class="text-muted mt-3">Real-time tracking and comprehensive insurance coverage ensuring your
                             goods are always protected.</p>
                     </div>
@@ -62,7 +62,7 @@
 
     <!-- Facility Preview -->
     <section class="facility-preview-section position-relative"
-        style="background-image: url('{{ asset("assets/img/facility_home.jpg") }}'); background-size: cover; background-position: center; background-attachment: fixed; padding: 100px 0;">
+        style="background-image: url('{{ asset("assets/img/facility_home.webp") }}'); background-size: cover; background-position: center; background-attachment: fixed; padding: 100px 0;">
         <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.65);"></div>
         <div class="container position-relative z-1 text-center text-white">
             <div class="row justify-content-center">
@@ -90,8 +90,20 @@
             <div class="row justify-content-center">
                 <div class="col-lg-12">
                     <div class="process-img-wrap" data-bs-toggle="modal" data-bs-target="#processModal">
-                        <img src="{{ asset('assets/img/our_logistic_process.png') }}" alt="Our Logistics Process"
-                            class="img-fluid rounded shadow-lg">
+                        
+                        <picture>
+                            <source media="(min-width: 768px)" 
+                                    srcset="{{ asset('assets/img/our_logistic_process_desktop.webp') }}">
+                            
+                            <source srcset="{{ asset('assets/img/our_logistic_process_mobile.webp') }}">
+                            
+                            <img src="{{ asset('assets/img/our_logistic_process_desktop.webp') }}" 
+                                alt="Our Logistics Process"
+                                class="img-fluid rounded shadow-lg"
+                                loading="lazy"
+                                width="1076" 
+                                height="593">
+                        </picture>
                         <div class="process-zoom-overlay">
                             <i class="fa-solid fa-magnifying-glass-plus"></i>
                             <span>Click to Preview</span>
@@ -117,35 +129,35 @@
         <div class="client-marquee-wrapper">
             <div class="client-marquee-track">
                 <!-- Original Set -->
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_1.png') }}" alt="client_1"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_2.png') }}" alt="client_2"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_3.png') }}" alt="client_3"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_4.png') }}" alt="client_4"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_5.png') }}" alt="client_5"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_6.png') }}" alt="client_6"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_7.png') }}" alt="client_7"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_8.png') }}" alt="client_8"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_9.png') }}" alt="client_9"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_10.png') }}" alt="client_10"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_11.png') }}" alt="client_11"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_12.png') }}" alt="client_12"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_13.png') }}" alt="client_13"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_14.png') }}" alt="client_14"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_1.webp') }}" alt="client_1"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_2.webp') }}" alt="client_2"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_3.webp') }}" alt="client_3"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_4.webp') }}" alt="client_4"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_5.webp') }}" alt="client_5"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_6.webp') }}" alt="client_6"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_7.webp') }}" alt="client_7"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_8.webp') }}" alt="client_8"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_9.webp') }}" alt="client_9"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_10.webp') }}" alt="client_10"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_11.webp') }}" alt="client_11"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_12.webp') }}" alt="client_12"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_13.webp') }}" alt="client_13"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_14.webp') }}" alt="client_14"></div>
                 <!-- Duplicate Set for Seamless Loop -->
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_1.png') }}" alt="client_1"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_2.png') }}" alt="client_2"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_3.png') }}" alt="client_3"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_4.png') }}" alt="client_4"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_5.png') }}" alt="client_5"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_6.png') }}" alt="client_6"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_7.png') }}" alt="client_7"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_8.png') }}" alt="client_8"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_9.png') }}" alt="client_9"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_10.png') }}" alt="client_10"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_11.png') }}" alt="client_11"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_12.png') }}" alt="client_12"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_13.png') }}" alt="client_13"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_14.png') }}" alt="client_14"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_1.webp') }}" alt="client_1"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_2.webp') }}" alt="client_2"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_3.webp') }}" alt="client_3"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_4.webp') }}" alt="client_4"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_5.webp') }}" alt="client_5"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_6.webp') }}" alt="client_6"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_7.webp') }}" alt="client_7"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_8.webp') }}" alt="client_8"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_9.webp') }}" alt="client_9"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_10.webp') }}" alt="client_10"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_11.webp') }}" alt="client_11"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_12.webp') }}" alt="client_12"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_13.webp') }}" alt="client_13"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/client_14.webp') }}" alt="client_14"></div>
             </div>
         </div>
     </section>

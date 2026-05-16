@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@push('scripts')
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+@pushend
 @section('title', 'Contact Us')
 @section('meta_description', 'Get in touch with SGI Logistics for all your logistics and supply chain needs. Our team is ready to assist you with tailored solutions.')
 @section('meta_keywords', 'SGI Logistic, logistics company Indonesia, freight forwarding Indonesia, warehousing services, trucking services, customs clearance, supply chain solutions, domestic logistics, international logistics')
