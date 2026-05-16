@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="mt-4 text-center">
-                    <a href="contact.html" class="btn btn-primary-custom btn-lg px-5">Request a Consultation</a>
+                    <a href="{{  url('/contact') }}" class="btn btn-primary-custom btn-lg px-5">Request a Consultation</a>
                 </div>
             </div>
         </div>
