@@ -2,6 +2,7 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">PT. Sandika Global<span> Indonesia</span></a>
+        {{-- <img src="{{ asset('assets/img/logo1.png') }}" alt="PT. Sandika Global Indonesia Logo" class="navbar-brand" style="height: 60px;"> --}}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
