@@ -39,7 +39,7 @@
                 <!-- Facility 2 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/hero_logistics_1777043517461.webp') }}" alt="Port Terminals">
+                        <img src="{{  asset('assets/img/hero_logistics_new.png') }}" alt="Port Terminals">
                         <div class="facility-overlay">
                             <h4>Dedicated Port Terminals</h4>
                             <p class="small mb-0">Strategic locations at major global ports to ensure rapid loading,
@@ -109,7 +109,7 @@
                         <div class="col-6">
                             <img src="{{  asset('assets/img/service_air_1777043709915.jpg') }}" alt="Tech"
                                 class="img-fluid rounded mb-2">
-                            <img src="{{  asset('assets/img/hero_logistics_1777043517461.webp') }}" alt="Security"
+                            <img src="{{  asset('assets/img/hero_logistics_new.png') }}" alt="Security"
                                 class="img-fluid rounded">
                         </div>
                         <div class="col-6 mt-4">
