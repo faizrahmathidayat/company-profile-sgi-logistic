@@ -25,12 +25,12 @@
             <div class="col-lg-3 col-md-6">
                 <div class="footer-title fw-bold fs-5">Services</div>
                 <ul class="footer-links">
-                    <li><a href="{{ url('/service/sea-freight') }}">Sea Freight</a></li>
                     <li><a href="{{ url('/service/air-freight') }}">Air Freight</a></li>
-                    <li><a href="{{ url('/service/warehouse-and-distribution') }}">Warehousing & Distribution</a></li>
-                    <li><a href="{{ url('/service/custom-brokage') }}">Custom Brokage</a></li>
-                    {{-- <li><a href="{{ url('/service/land-transport') }}">Land Transport</a></li>
-                    <li><a href="{{ url('/service/contract-logistics') }}">Contract Logistics</a></li> --}}
+                    <li><a href="{{ url('/service/sea-freight') }}">Sea Freight</a></li>
+                    <li><a href="{{ url('/service/cargo-insurance') }}">Cargo Insurance</a></li>
+                    <li><a href="{{ url('/service/custom-brokerage') }}">Custom Brokerage</a></li>
+                    <li><a href="{{ url('/service/domestics-freight') }}">Domestics Freight</a></li>
+                    <li><a href="{{ url('/service/trucking') }}">Trucking</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6">

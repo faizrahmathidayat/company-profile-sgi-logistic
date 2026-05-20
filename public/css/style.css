@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(17, 17, 17, 0.95) 0%, rgba(17, 17, 17, 0.6) 100%);
+  background: linear-gradient(197deg, rgba(17, 17, 17, 0.95) 0%, rgb(134 134 134 / 60%) 100%);
   z-index: 1;
 }
 
@@ -391,6 +391,100 @@ h1, h2, h3, h4, h5, h6 {
 .facility-item:hover .facility-overlay {
   transform: translateY(0);
   opacity: 1;
+}
+
+/* Technology & Security Collage */
+.facility-collage-wrapper {
+  position: relative;
+  padding: 40px 20px 40px 0;
+  height: 480px;
+  display: flex;
+  align-items: center;
+}
+
+.collage-main-img {
+  width: 75%;
+  position: relative;
+  z-index: 2;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.collage-main-img:hover {
+  transform: translateY(-5px);
+}
+
+.collage-main-img img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.collage-sub-img {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  z-index: 3;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.collage-sub-img:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.collage-sub-img img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+
+.collage-badge {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  z-index: 4;
+}
+
+.bg-primary-custom {
+  background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
+}
+
+.bg-secondary-custom {
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+}
+
+@media (max-width: 991px) {
+  .facility-collage-wrapper {
+    height: 400px;
+    margin-top: 40px;
+  }
+  .collage-main-img img {
+    height: 280px;
+  }
+  .collage-sub-img {
+    bottom: 20px;
+  }
+  .collage-sub-img img {
+    height: 180px;
+  }
 }
 
 /* Contact Form */

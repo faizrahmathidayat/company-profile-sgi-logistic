@@ -89,9 +89,10 @@
                                         <option value="" selected disabled>Select a service...</option>
                                         <option value="AIR FREIGHT">Air Freight</option>
                                         <option value="SEA FREIGHT">Sea Freight</option>
-                                        <option value="WAREHOUSE & DISTRIBUTION">Warehousing & Distribution</option>
-                                        {{-- <option value="LAND TRANSPORT">Land Transport</option>
-                                        <option value="CONTRACT LOGISTICS">Contract Logistics</option> --}}
+                                        <option value="CARGO INSURANCE">Cargo Insurance</option>
+                                        <option value="CUSTOM BROKERAGE">Custom Brokerage</option>
+                                        <option value="DOMESTICS FREIGHT">Domestics Freight</option>
+                                        <option value="TRUCKING">Trucking</option>
                                         <option value="OTHER">Other / Not Sure</option>
                                     </select>
                                 </div>

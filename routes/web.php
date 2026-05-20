@@ -25,21 +25,21 @@ Route::prefix('service')->name('service.')->group(function () {
         return view('contents.details.services.sea_freight');
     })->name('sea-freight');
 
-    Route::get('/warehouse-and-distribution', function () {
-        return view('contents.details.services.warehouse_distribution');
-    })->name('warehouse-and-distribution');
+    Route::get('/cargo-insurance', function () {
+        return view('contents.details.services.cargo_insurance');
+    })->name('cargo-insurance');
 
-    Route::get('/custom-brokage', function () {
-        return view('contents.details.services.custom_brokage');
-    })->name('custom-brokage');
+    Route::get('/custom-brokerage', function () {
+        return view('contents.details.services.custom_brokerage');
+    })->name('custom-brokerage');
 
-    // Route::get('/land-transport', function () {
-    //     return view('contents.details.services.land_transport');
-    // })->name('land-transport');
+    Route::get('/domestics-freight', function () {
+        return view('contents.details.services.domestics_freight');
+    })->name('domestics-freight');
 
-    // Route::get('/contract-logistics', function () {
-    //     return view('contents.details.services.contract_logistics');
-    // })->name('contract-logistics');
+    Route::get('/trucking', function () {
+        return view('contents.details.services.trucking');
+    })->name('trucking');
 
 });
 

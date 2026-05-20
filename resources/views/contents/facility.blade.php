@@ -28,7 +28,7 @@
                 <!-- Facility 1 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/about_warehouse_1777043552976.jpg') }}" alt="Smart Warehouses">
+                        <img src="{{  asset('assets/img/facility_warehouse.webp') }}" alt="Smart Warehouses">
                         <div class="facility-overlay">
                             <h4>Smart Warehouses</h4>
                             <p class="small mb-0">Fully automated inventory management, climate-controlled zones, and
@@ -39,7 +39,7 @@
                 <!-- Facility 2 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/hero_logistics_new.png') }}" alt="Port Terminals">
+                        <img src="{{  asset('assets/img/facility_port.webp') }}" alt="Port Terminals">
                         <div class="facility-overlay">
                             <h4>Dedicated Port Terminals</h4>
                             <p class="small mb-0">Strategic locations at major global ports to ensure rapid loading,
@@ -50,7 +50,7 @@
                 <!-- Facility 3 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="facility-item">
-                        <img src="{{  asset('assets/img/service_land_1777043803865.jpg') }}" alt="Distribution Centers">
+                        <img src="{{  asset('assets/img/facility_distribution.webp') }}" alt="Distribution Centers">
                         <div class="facility-overlay">
                             <h4>Distribution Centers</h4>
                             <p class="small mb-0">Optimized cross-docking facilities to accelerate the movement of goods
@@ -105,16 +105,14 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="row g-2">
-                        <div class="col-6">
-                            <img src="{{  asset('assets/img/service_air_1777043709915.jpg') }}" alt="Tech"
-                                class="img-fluid rounded mb-2">
-                            <img src="{{  asset('assets/img/hero_logistics_new.png') }}" alt="Security"
-                                class="img-fluid rounded">
+                    <div class="facility-collage-wrapper">
+                        <div class="collage-main-img">
+                            <img src="{{ asset('assets/img/facility_warehouse.webp') }}" alt="Advanced Warehouse Technology" class="img-fluid">
+                            <span class="collage-badge bg-primary-custom"><i class="fa-solid fa-microchip me-2"></i>Smart WMS</span>
                         </div>
-                        <div class="col-6 mt-4">
-                            <img src="{{  asset('assets/img/about_warehouse_1777043552976.jpg') }}" alt="Warehouse"
-                                class="img-fluid rounded">
+                        <div class="collage-sub-img">
+                            <img src="{{ asset('assets/img/facility_port.webp') }}" alt="Secure Port Operations" class="img-fluid border border-4 border-white">
+                            <span class="collage-badge bg-secondary-custom"><i class="fa-solid fa-shield-halved me-2"></i>24/7 Secure</span>
                         </div>
                     </div>
                 </div>
