@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Hero Section -->
-    <section class="hero-section" style="background-image: url('{{ asset("assets/img/hero_logistics_new.png") }}');">
+    <section class="hero-section" style="background-image: url('{{ asset("assets/img/hero_logistics_new.webp") }}');">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="row">
