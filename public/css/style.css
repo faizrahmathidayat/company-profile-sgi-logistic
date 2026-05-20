@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-outline-custom:hover {
-  background-color: white;
+  background-color: #FF8A1F;
   color: var(--primary-color);
 }
 
