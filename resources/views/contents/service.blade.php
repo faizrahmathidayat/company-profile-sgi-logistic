@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-    <header class="page-header" style="background-image: url('{{ asset("assets/img/hero_logistics_new.png") }}');">
+    <header class="page-header" style="background-image: url('{{ asset("assets/img/hero_logistics_new.webp") }}');">
         <div class="page-header-overlay"></div>
         <div class="container">
             <h1>Our Services</h1>
