@@ -99,7 +99,7 @@
                     <p class="mt-4 text-muted">Our cargo facilities are not just loading docks; they are intelligent logistics nerve centers engineered to give you absolute peace of mind and full visibility.</p>
 
                     <div class="mt-4">
-                        <div class="d-flex mb-4">
+                        {{-- <div class="d-flex mb-4">
                             <div class="me-3">
                                 <i class="fa-solid fa-microchip fs-3 text-secondary" style="color: var(--primary-orange) !important;"></i>
                             </div>
@@ -107,7 +107,7 @@
                                 <h5 class="fw-bold" style="font-family: 'Outfit', sans-serif;">Advanced WMS Tracking</h5>
                                 <p class="text-muted small mb-0">Real-time Warehouse Management Systems providing accurate parcel manifest and item tracking down to the barcode level.</p>
                             </div>
-                        </div>
+                        </div> --}}
                         <div class="d-flex mb-4">
                             <div class="me-3">
                                 <i class="fa-solid fa-video fs-3 text-secondary" style="color: var(--primary-orange) !important;"></i>

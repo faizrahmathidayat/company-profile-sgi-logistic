@@ -31,7 +31,7 @@ class ContactController extends Controller
             $response = Http::asForm()->post(
                 'https://www.google.com/recaptcha/api/siteverify',
                 [
-                    'secret'   => env('GOOGLE_RECAPTCHA_SECRET'),
+                    'secret'   => config('services.recaptcha.secret'),
                     'response' => $request->input('g-recaptcha-response'),
                 ]
             );

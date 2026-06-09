@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
-                    <h2 class="section-title text-center">Our Logistics Process</h2>
+                    <h2 class="section-title text-center">Our Logistics Import Process</h2>
                     <p class="text-muted mt-3 max-w-600 mx-auto">A transparent and efficient workflow designed to ensure
                         your cargo moves seamlessly from origin to destination.</p>
                 </div>

@@ -7,9 +7,9 @@
                 <p class="mt-3">Delivering excellence in freight forwarding and contract logistics. Your trusted
                     partner for global supply chain solutions.</p>
                 <div class="d-flex gap-3 mt-4">
-                    <a class="text-white fs-5"><i class="fa-brands fa-linkedin"></i></a>
-                    <a class="text-white fs-5"><i class="fa-brands fa-twitter"></i></a>
-                    <a class="text-white fs-5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/sgi-logistics" target="_blank" rel="noopener noreferrer" class="text-white fs-5" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/sgilogistics" target="_blank" rel="noopener noreferrer" class="text-white fs-5" aria-label="Twitter / X"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/sgilogistics" target="_blank" rel="noopener noreferrer" class="text-white fs-5" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
             <div class="col-lg-2 col-md-6">

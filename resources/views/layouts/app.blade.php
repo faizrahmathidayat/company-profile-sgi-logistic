@@ -55,11 +55,9 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
 
-    <link href="{{ asset('css/style.css') }}?v=1.1" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}?v=1.2" rel="stylesheet">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" defer></script>
     @stack('scripts')
-</body>
 </head>
 
 <body>
@@ -72,6 +70,10 @@
 
     <!-- Footer -->
     @include('layouts.footer')
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" defer></script>
+    <!-- FontAwesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
 
     <script>
         // Navbar scroll effect
@@ -162,19 +164,17 @@
         }
 
         function showLoading(show) {
-            document.getElementById('loadingOverlay').style.display = show ? 'flex' : 'none';
+            const overlay = document.getElementById('loadingOverlay');
+            if (overlay) overlay.style.display = show ? 'flex' : 'none';
         }
 
         function showMessage(message, type) {
             const modalBody = document.getElementById('messageModalBody');
+            if (!modalBody) return;
             modalBody.innerHTML = `<div class="alert alert-${type}" role="alert">${message}</div>`;
             const modal = new bootstrap.Modal(document.getElementById('messageModal'));
             modal.show();
         }
     </script>
-    <!-- FontAwesome -->
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> --}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
-</body>
 </body>
 </html>
