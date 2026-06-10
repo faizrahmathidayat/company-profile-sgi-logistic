@@ -642,7 +642,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-290px * 14)); /* 14 clients × (250px width + 40px margin) = 4060px */
+    transform: translateX(var(--scroll-distance, -4060px));
   }
 }
 

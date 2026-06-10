@@ -125,7 +125,7 @@
     </section>
 
     <!-- Management Team -->
-    <section class="section-padding bg-light">
+    {{-- <section class="section-padding bg-light">
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
@@ -175,6 +175,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 @endsection

@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="row g-4">
-                <div class="col-md-4">
+                <div class="col-md-12">
                     <div class="service-card text-center">
                         <i class="fa-solid fa-ship service-icon"></i>
                         <h3 class="fs-4">Freight Forwarding</h3>
@@ -40,7 +40,7 @@
                             you to major markets worldwide.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                {{-- <div class="col-md-4">
                     <div class="service-card text-center">
                         <i class="fa-solid fa-warehouse service-icon"></i>
                         <h3 class="fs-4">Contract Logistics</h3>
@@ -55,7 +55,7 @@
                         <p class="text-muted mt-3">Real-time tracking and comprehensive insurance coverage ensuring your
                             goods are always protected.</p>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>
@@ -82,7 +82,7 @@
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
-                    <h2 class="section-title text-center">Our Logistics Import Process</h2>
+                    <h2 class="section-title text-center">Our Logistics Air Import Process</h2>
                     <p class="text-muted mt-3 max-w-600 mx-auto">A transparent and efficient workflow designed to ensure
                         your cargo moves seamlessly from origin to destination.</p>
                 </div>
@@ -99,6 +99,44 @@
                             
                             <img src="{{ asset('assets/img/our_logistic_process_desktop.webp') }}" 
                                 alt="Our Logistics Process"
+                                class="img-fluid rounded shadow-lg"
+                                loading="lazy"
+                                width="1076" 
+                                height="593">
+                        </picture>
+                        <div class="process-zoom-overlay">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                            <span>Click to Preview</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Logistics Export Process -->
+    <section class="section-padding bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-12">
+                    <h2 class="section-title text-center">Our Logistics Air Export Process</h2>
+                    <p class="text-muted mt-3 max-w-600 mx-auto">
+                        A streamlined and reliable export workflow designed to ensure your cargo is prepared, cleared, and delivered efficiently to international destinations.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="process-img-wrap" data-bs-toggle="modal" data-bs-target="#processModalExport">
+                        
+                        <picture>
+                            <source media="(min-width: 768px)" 
+                                    srcset="{{ asset('assets/img/our_logistic_export_process_desktop.webp') }}">
+                            
+                            <source srcset="{{ asset('assets/img/our_logistic_export_process_mobile.webp') }}">
+                            
+                            <img src="{{ asset('assets/img/our_logistic_export_process_desktop.webp') }}" 
+                                alt="Our Logistics Export Process"
                                 class="img-fluid rounded shadow-lg"
                                 loading="lazy"
                                 width="1076" 
@@ -143,24 +181,49 @@
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_12.webp') }}" alt="client_12"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_13.webp') }}" alt="client_13"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_14.webp') }}" alt="client_14"></div>
-                <!-- Duplicate Set for Seamless Loop -->
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_1.webp') }}" alt="client_1"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_2.webp') }}" alt="client_2"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_3.webp') }}" alt="client_3"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_4.webp') }}" alt="client_4"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_5.webp') }}" alt="client_5"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_6.webp') }}" alt="client_6"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_7.webp') }}" alt="client_7"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_8.webp') }}" alt="client_8"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_9.webp') }}" alt="client_9"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_10.webp') }}" alt="client_10"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_11.webp') }}" alt="client_11"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_12.webp') }}" alt="client_12"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_13.webp') }}" alt="client_13"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_14.webp') }}" alt="client_14"></div>
             </div>
         </div>
     </section>
+
+    @push('scripts')
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const track = document.querySelector('.client-marquee-track');
+            if (track) {
+                const items = Array.from(track.children);
+                if (items.length > 0) {
+                    // Clone all items and append them to the track to create a seamless loop
+                    items.forEach(item => {
+                        const clone = item.cloneNode(true);
+                        clone.setAttribute('aria-hidden', 'true');
+                        track.appendChild(clone);
+                    });
+
+                    // Calculate the scroll distance dynamically based on actual item width + margins
+                    const updateScrollDistance = () => {
+                        const itemWidth = items[0].getBoundingClientRect().width;
+                        const style = window.getComputedStyle(items[0]);
+                        const marginLeft = parseFloat(style.marginLeft) || 0;
+                        const marginRight = parseFloat(style.marginRight) || 0;
+                        const totalItemWidth = itemWidth + marginLeft + marginRight;
+                        const scrollDistance = totalItemWidth * items.length;
+                        
+                        track.style.setProperty('--scroll-distance', `-${scrollDistance}px`);
+                    };
+
+                    // Run initially
+                    updateScrollDistance();
+
+                    // Recalculate on window resize to ensure accuracy
+                    window.addEventListener('resize', updateScrollDistance);
+                    
+                    // Also run after window load to make sure CSS/images are fully resolved
+                    window.addEventListener('load', updateScrollDistance);
+                }
+            }
+        });
+    </script>
+    @endpush
 
     <!-- Call to Action -->
     <section class="section-padding" style="background: var(--primary-gradient); color: white;">

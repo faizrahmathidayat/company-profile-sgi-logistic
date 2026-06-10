@@ -67,3 +67,19 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade preview-modal" id="processModalExport" tabindex="-1" aria-labelledby="processModalExportLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content border-0 bg-transparent">
+            <div class="modal-header border-0 p-0 mb-3 justify-content-end">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-0">
+                <img src="{{ asset('assets/img/our_logistic_export_process_desktop.webp') }}" 
+                     class="img-fluid w-100 rounded" 
+                     alt="Our Logistics Export Process Full View"
+                     loading="lazy"> 
+            </div>
+        </div>
+    </div>
+</div>
