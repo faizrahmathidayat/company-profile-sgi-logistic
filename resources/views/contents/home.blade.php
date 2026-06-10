@@ -31,31 +31,31 @@
                         industry-leading technology and a global network of partners.</p>
                 </div>
             </div>
-            <div class="row g-4">
-                <div class="col-md-12">
-                    <div class="service-card text-center">
-                        <i class="fa-solid fa-ship service-icon"></i>
-                        <h3 class="fs-4">Freight Forwarding</h3>
-                        <p class="text-muted mt-3">Reliable sea, air, and land freight forwarding services connecting
-                            you to major markets worldwide.</p>
+            <div class="row g-5 align-items-center">
+                <!-- Left Column: Company Promotion Text -->
+                <div class="col-lg-6">
+                    <span class="text-primary fw-bold text-uppercase tracking-wider">Premium Logistics Solutions</span>
+                    <h3 class="mt-2 mb-4 fw-extrabold display-6" style="color: var(--dark-bg); font-family: 'Outfit', sans-serif;">Providing Seamless Cargo Management Across the Globe</h3>
+                    <p class="text-muted mb-4 lead" style="font-size: 1.1rem; line-height: 1.7;">PT. Sandika Global Indonesia (SGI Logistics) is dedicated to optimizing your supply chain. We deliver reliable sea, air, and land freight forwarding solutions backed by advanced tracking, strategic partnerships, and deep industry expertise.</p>
+                    <div class="d-flex gap-4 flex-wrap">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-primary"></i>
+                            <span class="fw-semibold text-dark">Global Network</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fa-solid fa-circle-check text-primary"></i>
+                            <span class="fw-semibold text-dark">Secure Delivery</span>
+                        </div>
                     </div>
                 </div>
-                {{-- <div class="col-md-4">
-                    <div class="service-card text-center">
-                        <i class="fa-solid fa-warehouse service-icon"></i>
-                        <h3 class="fs-4">Contract Logistics</h3>
-                        <p class="text-muted mt-3">End-to-end supply chain management including warehousing, inventory
-                            control, and distribution.</p>
+                <!-- Right Column: Featured Card -->
+                <div class="col-lg-6">
+                    <div class="service-card text-center py-5 px-4 shadow-lg border-0 bg-white" style="border-radius: 16px;">
+                        <i class="fa-solid fa-ship service-icon fs-1 text-primary mb-3"></i>
+                        <h4 class="fw-bold fs-3 mb-3" style="font-family: 'Outfit', sans-serif;">Freight Forwarding</h4>
+                        <p class="text-muted">Reliable sea, air, and land freight forwarding services connecting you to major markets worldwide. We handle all logistics complexities, customs clearances, and documentation so you can focus on growing your business.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="service-card text-center">
-                        <i class="fa-solid fa-shield-halved service-icon"></i>
-                        <h3 class="fs-4">Secure & Tracked</h3>
-                        <p class="text-muted mt-3">Real-time tracking and comprehensive insurance coverage ensuring your
-                            goods are always protected.</p>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </section>
