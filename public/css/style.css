@@ -170,6 +170,29 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 8px 25px rgba(255, 77, 10, 0.5);
 }
 
+.btn-whatsapp-custom {
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+  text-decoration: none;
+}
+
+.btn-whatsapp-custom:hover {
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+}
+
 .btn-outline-custom {
   border: 2px solid white;
   color: white;
@@ -691,6 +714,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.1rem;
   color: var(--dark-bg);
   text-align: center;
+}
+
+.logo-polaris img {
+    max-height: 100px;
 }
 
 @keyframes scroll {

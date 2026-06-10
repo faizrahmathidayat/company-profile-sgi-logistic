@@ -181,6 +181,8 @@
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_12.webp') }}" alt="client_12"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_13.webp') }}" alt="client_13"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_14.webp') }}" alt="client_14"></div>
+                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_15.webp') }}" alt="client_15"></div>
+                <div class="client-logo-wrap logo-polaris"><img src="{{ asset('assets/img/clients/client_16.webp') }}" alt="client_16"></div>
             </div>
         </div>
     </section>
