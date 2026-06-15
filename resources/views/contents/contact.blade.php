@@ -54,7 +54,7 @@
                         </div>
                         <div>
                             <h5 class="fw-bold mb-1">Email</h5>
-                            <p class="text-muted mb-0">sales@sgilogistics.com</p>
+                            <p class="text-muted mb-0">sales@sgi-logistics.net</p>
                         </div>
                     </div>
                 </div>
@@ -108,17 +108,17 @@
                                 </div>
                                 <div class="col-12 mt-4">
                                     <div class="row g-3">
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <button type="submit" class="btn btn-primary-custom w-100">Send Request</button>
                                         </div>
-                                        <div class="col-md-6">
+                                        {{-- <div class="col-md-6">
                                             <a href="https://wa.me/6282111855805?text=Halo%20SGI%20Logistics%2C%20saya%20ingin%20meminta%20penawaran%20harga%20(Request%20a%20Quote).%0A%0ABerikut%20detail%20kargo%20saya%3A%0A-%20Asal%20%26%20Tujuan%3A%0A-%20Berat%20%26%20Dimensi%3A%0A-%20Jenis%20Layanan%20(Air%2FSea%2FLand)%3A" 
                                                target="_blank" 
                                                rel="noopener noreferrer" 
                                                class="btn btn-whatsapp-custom w-100 d-flex align-items-center justify-content-center gap-2">
                                                 <i class="fa-brands fa-whatsapp fs-5"></i> Chat via WhatsApp
                                             </a>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>

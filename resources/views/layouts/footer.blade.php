@@ -40,7 +40,7 @@
                     </li>
                     <li class="mb-3"><i class="fa-solid fa-phone me-2 text-primary"></i> +62 821 1185 5805</li>
                     <li class="mb-3"><i class="fa-solid fa-phone me-2 text-primary"></i> +62 858-8652-7664</li>
-                    <li class="mb-3"><i class="fa-solid fa-envelope me-2 text-primary"></i> sales@sgilogistics.com
+                    <li class="mb-3"><i class="fa-solid fa-envelope me-2 text-primary"></i> sales@sgi-logistics.net
                     </li>
                 </ul>
             </div>

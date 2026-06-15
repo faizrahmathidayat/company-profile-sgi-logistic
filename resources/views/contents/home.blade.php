@@ -31,7 +31,7 @@
                         industry-leading technology and a global network of partners.</p>
                 </div>
             </div>
-            <div class="row g-5 align-items-center">
+            <div class="row align-items-center">
                 <!-- Left Column: Company Promotion Text -->
                 <div class="col-lg-6">
                     <span class="text-primary fw-bold text-uppercase tracking-wider">Premium Logistics Solutions</span>
@@ -157,7 +157,7 @@
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col-12">
-                    <h2 class="section-title text-center">Our Trusted Clients</h2>
+                    <h2 class="section-title text-center">Our Trusted Customers</h2>
                     <p class="text-muted mt-3 max-w-600 mx-auto">We are proud to partner with leading companies across various industries, providing them with reliable and efficient logistics solutions.</p>
                 </div>
             </div>
@@ -179,10 +179,13 @@
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_10.webp') }}" alt="client_10"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_11.webp') }}" alt="client_11"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_12.webp') }}" alt="client_12"></div>
-                <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_13.webp') }}" alt="client_13"></div>
+                <!--<div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_13.webp') }}" alt="client_13"></div>-->
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_14.webp') }}" alt="client_14"></div>
                 <div class="client-logo-wrap"><img src="{{ asset('assets/img/clients/client_15.webp') }}" alt="client_15"></div>
-                <div class="client-logo-wrap logo-polaris"><img src="{{ asset('assets/img/clients/client_16.webp') }}" alt="client_16"></div>
+                <div class="client-logo-wrap logo-custom"><img src="{{ asset('assets/img/clients/client_16.webp') }}" alt="client_16"></div>
+                <div class="client-logo-wrap logo-custom"><img src="{{ asset('assets/img/clients/client_17.webp') }}" alt="client_17"></div>
+                <div class="client-logo-wrap logo-custom"><img src="{{ asset('assets/img/clients/client_18.webp') }}" alt="client_18"></div>
+                <div class="client-logo-wrap logo-custom"><img src="{{ asset('assets/img/clients/client_19.webp') }}" alt="client_19"></div>
             </div>
         </div>
     </section>
