@@ -71,20 +71,23 @@
     <!-- Footer -->
     @include('layouts.footer')
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
     <!-- FontAwesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" defer></script>
 
     <script>
         // Navbar scroll effect
         window.addEventListener('scroll', function () {
+            const topbar = document.querySelector('.topbar');
             const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.style.padding = '10px 0';
-                navbar.style.boxShadow = '0 10px 30px rgba(0,0,0,0.1)';
+            if (window.scrollY > 60) {
+                if (topbar) topbar.classList.add('topbar-hidden');
+                navbar.style.padding = '8px 0';
+                navbar.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
             } else {
-                navbar.style.padding = '15px 0';
-                navbar.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.05)';
+                if (topbar) topbar.classList.remove('topbar-hidden');
+                navbar.style.padding = '12px 0';
+                navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.06)';
             }
         });
 

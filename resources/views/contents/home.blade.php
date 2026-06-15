@@ -7,14 +7,50 @@
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-7">
+                    <span class="hero-label">For Personal &amp; Business</span>
                     <h1 class="hero-title">Global Reach,<br>Local Expertise.</h1>
-                    <p class="hero-subtitle">Premium freight forwarding and comprehensive contract logistics solutions
-                        tailored to your business needs. We ensure your cargo reaches its destination safely and on
-                        time.</p>
+                    <p class="hero-subtitle">Providing integrated logistics solutions with global network and reliable
+                        service excellence. We ensure your cargo reaches its destination safely and on time.</p>
                     <div class="d-flex gap-3 flex-wrap">
                         <a href="{{ url('/service') }}" class="btn btn-primary-custom">Our Services</a>
-                        <a href="{{ url('/contact') }}" class="btn btn-outline-custom">Contact Us</a>
+                        <a href="{{ url('/contact') }}" class="btn btn-outline-custom">Get Free Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero Stats Bar -->
+        <div class="hero-stats-bar">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-6 col-md-3">
+                        <div class="hero-stat-item">
+                            <i class="fa-solid fa-globe hero-stat-icon"></i>
+                            <div class="hero-stat-number">25+</div>
+                            <div class="hero-stat-label">Countries Coverage</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="hero-stat-item">
+                            <i class="fa-solid fa-building-columns hero-stat-icon"></i>
+                            <div class="hero-stat-number">500+</div>
+                            <div class="hero-stat-label">Shipments Handled</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="hero-stat-item">
+                            <i class="fa-solid fa-chart-line hero-stat-icon"></i>
+                            <div class="hero-stat-number">98%</div>
+                            <div class="hero-stat-label">On-Time Delivery</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="hero-stat-item border-stat-none">
+                            <i class="fa-solid fa-headset hero-stat-icon"></i>
+                            <div class="hero-stat-number">24/7</div>
+                            <div class="hero-stat-label">Customer Support</div>
+                        </div>
                     </div>
                 </div>
             </div>
